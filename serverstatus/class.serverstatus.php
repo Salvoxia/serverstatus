@@ -4,7 +4,6 @@
     use Swagger\Client\ApiException;
     
     if(!defined("KB_SITE")) die ("Go Away!");
-    require_once("common/includes/api/class.serverstatus.php");
 
     class serverstatus
     {
